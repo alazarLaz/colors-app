@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     overflow: hidden;
+    font-family: 'Edu TAS Beginner', cursive;
 }
 .Palette{
     height: 100vh;
@@ -9,30 +16,11 @@ body{
     height: 90%;
     width: 100%;
 }
-
-.slider{
-    width: 340px;
-    margin: 0 10px;
+.Palette-footer{
+    height: 5vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 20px;
 }
-.rc-slider-track{
-    background-color: transparent;
-}
-.rc-slider-rail{
-    height: 8px;
-}
-.rc-slider-handle,
-.rc-slider-handle:focus,
-.rc-slider-handle:hover,
-.rc-slider-handle:active
-{
-    background-color: green;
-    border: 2px solid green;
-    outline: none;
-    width: 13px;
-    height: 13px;
-    margin-left: -7px;
-    margin-top: -3px;
-}
+

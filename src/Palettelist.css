@@ -1,0 +1,83 @@
+.Palettelist
+{
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.PaletteContainer
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.Palettelistnav
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.Palettelistnav h3{
+    font-size: 3rem;
+}
+.Palettelistnav span{
+    text-decoration: underline;
+}
+
+.PalettesBox
+{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-gap: 5%;
+}
+.MiniPalette
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.MiniColors
+{
+    height: 150px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.MiniColor:nth-child(1)
+{
+    border-top-left-radius: 5px;
+}
+.MiniColor:nth-child(5)
+{
+    border-top-right-radius: 5px;
+
+}
+.MiniColor:nth-child(16)
+{
+    border-bottom-left-radius: 5px;
+}
+.MiniColor:nth-child(20)
+{
+    border-bottom-right-radius: 5px;
+}
+.MiniColor
+{
+    width: 20%;
+    height: 25%;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: -3.5px;
+}
+.MiniPaletteBar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}

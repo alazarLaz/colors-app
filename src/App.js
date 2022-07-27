@@ -31,9 +31,9 @@ class App extends Component {
         </Route>
         <Route 
         exact 
-        path="/palette/:id" 
-        render={(routeProps) => 
-        <Palette palette={generatePalette(this.findPalette(routeProps.match.params.id))}/>
+        path = "/palette/:id" 
+        render = {(routeProps) => 
+        <Palette palette = { generatePalette(this.findPalette(routeProps.match.params.id)) }/>
         }>
 
         </Route>

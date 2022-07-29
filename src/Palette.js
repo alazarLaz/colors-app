@@ -4,6 +4,7 @@ import ColorBox from './ColorBox';
 import {v4 as uuid} from 'uuid';
 
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 
 export default class Palette extends Component {
@@ -30,19 +31,23 @@ export default class Palette extends Component {
     }
     
   render() {
-    const { paletteName, colors, emoji } = this.props.palette;
+    const { paletteName, colors, emoji, id } = this.props.palette;
     const { level, format } = this.state;
     let colorBox = colors[level].map( color =>
     <ColorBox 
     key={uuid()} 
-    color = {color[format]} 
-    name = {color.name} />
+    paletteId = { id }
+    color = { color[format] } 
+    name = { color.name }
+    id = { color.id }
+    moreUrl = { true }
+     />
     )
     return (
       <div className='Palette'>
-        <Navbar level = {level} changeLevel = {this.changeLevel} changeFormat={this.changeFormat}></Navbar>
+        <Navbar showAllColors= { true } level = {level} changeLevel = {this.changeLevel} changeFormat={this.changeFormat}></Navbar>
         <div className='Palette-box'> { colorBox } </div>
-        <div className='Palette-footer'>{paletteName} : {emoji}</div>
+        <Footer paletteName = {paletteName} emoji = {emoji} />
       </div>
     )
   }

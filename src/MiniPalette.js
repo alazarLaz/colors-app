@@ -9,7 +9,7 @@ export default function MiniPalette(props) {
       </div>)
   
   return (
-    <div className='MiniPalette'>
+    <div className='MiniPalette' onClick={props.handleClick}>
       <div className='MiniColors'>
         {items}
       </div>

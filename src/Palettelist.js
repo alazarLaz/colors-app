@@ -1,12 +1,16 @@
 
 import React, { Component } from 'react'
-// import { Link } from 'react-router-dom'
 import MiniPalette from './MiniPalette'
 import './Palettelist.css'
 
 export default class Palettelist extends Component {
+  handleClick(id)
+  {
+    this.props.history.push(`palette/${id}`)
+  }
   render() {
-  const miniPalettes = this.props.palettes.map(palette=><MiniPalette {...palette}/>)
+  const { palettes } = this.props;
+  const miniPalettes = palettes.map(palette=><MiniPalette handleClick = {()=>this.handleClick(palette.id)} {...palette}/>)
     return (
       <div className='Palettelist'>
         <div className='PaletteContainer'>

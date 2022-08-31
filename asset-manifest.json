@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/colors-app/static/css/main.4556f4c7.chunk.css",
+    "main.js": "/colors-app/static/js/main.85f2219d.chunk.js",
+    "main.js.map": "/colors-app/static/js/main.85f2219d.chunk.js.map",
+    "runtime~main.js": "/colors-app/static/js/runtime~main.946ea9eb.js",
+    "runtime~main.js.map": "/colors-app/static/js/runtime~main.946ea9eb.js.map",
+    "static/css/2.509658c0.chunk.css": "/colors-app/static/css/2.509658c0.chunk.css",
+    "static/js/2.63764ed1.chunk.js": "/colors-app/static/js/2.63764ed1.chunk.js",
+    "static/js/2.63764ed1.chunk.js.map": "/colors-app/static/js/2.63764ed1.chunk.js.map",
+    "static/js/3.f01dabdb.chunk.js": "/colors-app/static/js/3.f01dabdb.chunk.js",
+    "static/js/3.f01dabdb.chunk.js.map": "/colors-app/static/js/3.f01dabdb.chunk.js.map",
+    "index.html": "/colors-app/index.html",
+    "precache-manifest.22a622e626f99cef926d28aadb68287a.js": "/colors-app/precache-manifest.22a622e626f99cef926d28aadb68287a.js",
+    "service-worker.js": "/colors-app/service-worker.js",
+    "static/css/2.509658c0.chunk.css.map": "/colors-app/static/css/2.509658c0.chunk.css.map",
+    "static/css/main.4556f4c7.chunk.css.map": "/colors-app/static/css/main.4556f4c7.chunk.css.map"
+  }
+}

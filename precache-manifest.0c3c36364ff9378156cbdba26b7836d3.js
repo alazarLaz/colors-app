@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f073d86c465f30c1db8f1cd680f79415",
+    "revision": "0ad2c40fe1e4bd811b3487d4bf29d6b8",
     "url": "/alazarLaz/colors-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alazarLaz/colors-app/static/css/2.509658c0.chunk.css"
   },
   {
-    "revision": "24ff7703a43211dd7cfd",
+    "revision": "16e1efdeda4c015dadd8",
     "url": "/alazarLaz/colors-app/static/css/main.4556f4c7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alazarLaz/colors-app/static/js/3.f01dabdb.chunk.js"
   },
   {
-    "revision": "24ff7703a43211dd7cfd",
-    "url": "/alazarLaz/colors-app/static/js/main.fccd514a.chunk.js"
+    "revision": "16e1efdeda4c015dadd8",
+    "url": "/alazarLaz/colors-app/static/js/main.1452c646.chunk.js"
   },
   {
     "revision": "4c2373c3ef7514f719b8",

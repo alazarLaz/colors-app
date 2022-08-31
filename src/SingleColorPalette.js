@@ -4,6 +4,7 @@ import {v4 as uuid} from 'uuid';
 
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 export default class SingleColorPalette extends Component {
     constructor(props) 
     {
@@ -48,9 +49,12 @@ export default class SingleColorPalette extends Component {
          />
         )
         return (
-          <div className='Palette'>
+          <div className='Palette SingleColorPalette'>
             <Navbar showAllColors = {false} changeFormat={this.changeFormat}></Navbar>
-            <div className='Palette-box'> { colorBox } </div>
+            <div className='Palette-box'> 
+              { colorBox } 
+              <div className='ColorBox go-back'><Link to={`/palette/${id}`} className='btn-goback'>Go Back</Link></div>
+            </div>
             <Footer paletteName = {paletteName} emoji = {emoji} />
           </div>
         )

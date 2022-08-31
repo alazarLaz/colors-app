@@ -1,7 +1,7 @@
-
 import React, { Component } from 'react'
 import MiniPalette from './MiniPalette'
 import './Palettelist.css'
+import { Link } from 'react-router-dom'
 
 export default class Palettelist extends Component {
   handleClick(id)
@@ -16,7 +16,7 @@ export default class Palettelist extends Component {
         <div className='PaletteContainer'>
           <div className='Palettelistnav'>
             <h3>React Colors</h3>
-            <span>Create a palette</span>
+            <Link to = "/palette/new"><span>Create a palette</span></Link>
           </div>
           <div className='PalettesBox'>
             { miniPalettes }

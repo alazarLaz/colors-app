@@ -23,8 +23,9 @@
 .Palettelistnav h3{
     font-size: 3rem;
 }
-.Palettelistnav span{
+.Palettelistnav a{
     text-decoration: underline;
+    color: white;
 }
 
 .PalettesBox
